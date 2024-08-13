@@ -1,7 +1,7 @@
 #ifndef UART_H
 #define UART_H
 
-#include <lpc213x.h>
+#include <lpc214x.h>
 #define PCLK 15000000
 
 void UART0_Init(unsigned int BaurdRate);
